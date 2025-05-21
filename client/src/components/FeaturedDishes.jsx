@@ -1,17 +1,20 @@
 import React from 'react';
+import paneerMasala from '../assets/images/Paneer_Masala.png';
+import dosa from '../assets/images/Dosa.png';
+import vegBiryani from '../assets/images/Veg_Biryani.png';
 
 const dishes = [
   {
-    name: 'Samosa',
-    img: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80',
+    name: 'Paneer Masala',
+    img: paneerMasala,
   },
   {
-    name: 'Butter Chicken',
-    img: 'https://images.unsplash.com/photo-1600628422019-6c1a9b7b8c5e?auto=format&fit=crop&w=400&q=80',
+    name: 'Dosa',
+    img: dosa,
   },
   {
-    name: 'Palak Paneer',
-    img: 'https://images.unsplash.com/photo-1505250469679-203ad9ced0cb?auto=format&fit=crop&w=400&q=80',
+    name: 'Veg Biryani',
+    img: vegBiryani,
   },
 ];
 

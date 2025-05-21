@@ -1,11 +1,17 @@
 import React from 'react';
+import heroImage from '../assets/images/Hero Image.png';
 
 const HeroSection = () => (
-  <div className="hero">
-    <div className="hero-text">
-      Flavors That Feel Like Home<br />
-      <span style={{fontSize: '2.2rem'}}>Shiv Aurica Restaurant</span>
-    </div>
+  <div className="hero" style={{
+    backgroundImage: `url(${heroImage})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    minHeight: '80vh',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'relative'
+  }}>
   </div>
 );
 
